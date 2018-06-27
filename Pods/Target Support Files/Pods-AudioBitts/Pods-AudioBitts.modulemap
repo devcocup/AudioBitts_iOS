@@ -1,0 +1,6 @@
+framework module Pods_AudioBitts {
+  umbrella header "Pods-AudioBitts-umbrella.h"
+
+  export *
+  module * { export * }
+}

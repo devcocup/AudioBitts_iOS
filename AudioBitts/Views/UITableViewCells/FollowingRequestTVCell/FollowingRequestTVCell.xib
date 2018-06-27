@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="museosans-300.ttf">
+            <string>MuseoSans-300</string>
+        </mutableArray>
+        <mutableArray key="museosans-500.ttf">
+            <string>MuseoSans-500</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FollowingRequestTVCell_ID" rowHeight="75" id="Y8u-yD-CJZ" customClass="FollowingRequestTVCell" customModule="AudioBitts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y8u-yD-CJZ" id="Pek-LG-wis">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="cjM-re-Fgs">
+                        <rect key="frame" x="12" y="15" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="4kl-RH-JrD"/>
+                            <constraint firstAttribute="width" constant="45" id="kUg-VE-ear"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzi-cv-tWO">
+                        <rect key="frame" x="12" y="15" width="45" height="45"/>
+                        <connections>
+                            <action selector="profileBtnAction:" destination="Y8u-yD-CJZ" eventType="touchUpInside" id="apm-KQ-9RH"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="drake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkb-aN-TvR">
+                        <rect key="frame" x="66" y="18" width="42" height="18"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Drake Graham" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcM-Rd-smy">
+                        <rect key="frame" x="66" y="40" width="86" height="15"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="13"/>
+                        <color key="textColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.50588235294117645" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AO7-E5-vnh" userLabel="ButtonsView">
+                        <rect key="frame" x="213" y="17" width="95" height="40"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVw-9q-LaD" userLabel="accept">
+                                <rect key="frame" x="5" y="0.0" width="40" height="40"/>
+                                <state key="normal" image="accept"/>
+                                <connections>
+                                    <action selector="acceptOrRejectBtnAction:" destination="Y8u-yD-CJZ" eventType="touchUpInside" id="W58-iD-30Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCe-Gq-Uou" userLabel="reject">
+                                <rect key="frame" x="55" y="0.0" width="40" height="40"/>
+                                <state key="normal" image="reject"/>
+                                <connections>
+                                    <action selector="acceptOrRejectBtnAction:" destination="Y8u-yD-CJZ" eventType="touchUpInside" id="atg-Rt-h5a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="95" id="2L3-c0-zBY"/>
+                            <constraint firstItem="pVw-9q-LaD" firstAttribute="top" secondItem="AO7-E5-vnh" secondAttribute="top" id="6F3-6c-ae8"/>
+                            <constraint firstAttribute="bottom" secondItem="pVw-9q-LaD" secondAttribute="bottom" id="Kj8-D4-3C6"/>
+                            <constraint firstAttribute="bottom" secondItem="BCe-Gq-Uou" secondAttribute="bottom" id="Vh4-u2-mHm"/>
+                            <constraint firstItem="BCe-Gq-Uou" firstAttribute="leading" secondItem="pVw-9q-LaD" secondAttribute="trailing" constant="10" id="lP0-0X-1Pz"/>
+                            <constraint firstItem="BCe-Gq-Uou" firstAttribute="top" secondItem="AO7-E5-vnh" secondAttribute="top" id="ncx-WI-EEC"/>
+                            <constraint firstAttribute="height" constant="40" id="q6m-fk-t7K"/>
+                            <constraint firstAttribute="trailing" secondItem="BCe-Gq-Uou" secondAttribute="trailing" id="uJq-2P-DZ3"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="segmentDivider_Verticle" translatesAutoresizingMaskIntoConstraints="NO" id="fja-ly-UpL">
+                        <rect key="frame" x="12" y="73" width="296" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Qto-6x-K5w"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cjM-re-Fgs" firstAttribute="centerY" secondItem="Pek-LG-wis" secondAttribute="centerY" id="2HZ-UP-A3A"/>
+                    <constraint firstItem="cjM-re-Fgs" firstAttribute="leading" secondItem="Pek-LG-wis" secondAttribute="leading" constant="12" id="4PO-Qd-EFj"/>
+                    <constraint firstItem="gzi-cv-tWO" firstAttribute="width" secondItem="cjM-re-Fgs" secondAttribute="width" id="5bw-2k-idS"/>
+                    <constraint firstItem="NcM-Rd-smy" firstAttribute="top" secondItem="Rkb-aN-TvR" secondAttribute="bottom" constant="4" id="HCY-ub-dHJ"/>
+                    <constraint firstItem="gzi-cv-tWO" firstAttribute="centerX" secondItem="cjM-re-Fgs" secondAttribute="centerX" id="Ie0-9X-ZH1"/>
+                    <constraint firstItem="AO7-E5-vnh" firstAttribute="trailing" secondItem="fja-ly-UpL" secondAttribute="trailing" id="KzS-D2-xRO"/>
+                    <constraint firstItem="fja-ly-UpL" firstAttribute="leading" secondItem="cjM-re-Fgs" secondAttribute="leading" id="MAO-8m-ATS"/>
+                    <constraint firstAttribute="trailing" secondItem="AO7-E5-vnh" secondAttribute="trailing" constant="12" id="QXg-eb-ULh"/>
+                    <constraint firstItem="NcM-Rd-smy" firstAttribute="leading" secondItem="Rkb-aN-TvR" secondAttribute="leading" id="bXL-co-Jt3"/>
+                    <constraint firstAttribute="bottom" secondItem="fja-ly-UpL" secondAttribute="bottom" id="bvj-22-Ddm"/>
+                    <constraint firstItem="gzi-cv-tWO" firstAttribute="centerY" secondItem="cjM-re-Fgs" secondAttribute="centerY" id="lgd-Kq-NxW"/>
+                    <constraint firstItem="AO7-E5-vnh" firstAttribute="centerY" secondItem="Pek-LG-wis" secondAttribute="centerY" id="n0J-cs-hSI"/>
+                    <constraint firstItem="gzi-cv-tWO" firstAttribute="height" secondItem="cjM-re-Fgs" secondAttribute="height" id="nLY-np-Jfw"/>
+                    <constraint firstItem="Rkb-aN-TvR" firstAttribute="centerY" secondItem="cjM-re-Fgs" secondAttribute="centerY" constant="-10" id="oQv-6L-kIS"/>
+                    <constraint firstItem="Rkb-aN-TvR" firstAttribute="leading" secondItem="cjM-re-Fgs" secondAttribute="trailing" constant="9" id="ptZ-KO-fPA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fullNameLabel" destination="NcM-Rd-smy" id="Ir6-9N-N8f"/>
+                <outlet property="profilePicImageView" destination="cjM-re-Fgs" id="mH2-Pb-Gdy"/>
+                <outlet property="userActionsView" destination="AO7-E5-vnh" id="8uW-O2-cjK"/>
+                <outlet property="userNameLabel" destination="Rkb-aN-TvR" id="nMp-Mo-Yog"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="accept" width="40" height="40"/>
+        <image name="profile_placeholder" width="80" height="77"/>
+        <image name="reject" width="40" height="40"/>
+        <image name="segmentDivider_Verticle" width="3386" height="2"/>
+    </resources>
+</document>

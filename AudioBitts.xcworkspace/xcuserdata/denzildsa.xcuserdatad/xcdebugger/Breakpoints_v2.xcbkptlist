@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+            timestampString = "549610725.81208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioBitts.CommentTVCell.awakeFromNib() -&gt; ()"
+                  moduleName = "AudioBitts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denzildsa/Library/Mobile%20Documents/com~apple~CloudDocs/Family/Stores/Apps/Apple%20App%20Store/AudioBitts/AudioBitts_Appstore/AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+                  timestampString = "549290644.426154"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in AudioBitts.CommentTVCell.awakeFromNib() -&gt; ()"
+                  moduleName = "AudioBitts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denzildsa/Library/Mobile%20Documents/com~apple~CloudDocs/Family/Stores/Apps/Apple%20App%20Store/AudioBitts/AudioBitts_Appstore/AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+                  timestampString = "549290644.431205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+            timestampString = "549610725.812232"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CommentTVCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioBitts.CommentTVCell.__deallocating_deinit"
+                  moduleName = "AudioBitts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denzildsa/Library/Mobile%20Documents/com~apple~CloudDocs/Family/Stores/Apps/Apple%20App%20Store/AudioBitts/AudioBitts_Appstore/AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+                  timestampString = "549290644.4499739"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioBitts.CommentTVCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; AudioBitts.CommentTVCell"
+                  moduleName = "AudioBitts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denzildsa/Library/Mobile%20Documents/com~apple~CloudDocs/Family/Stores/Apps/Apple%20App%20Store/AudioBitts/AudioBitts_Appstore/AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+                  timestampString = "549290644.456532"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioBitts.CommentTVCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; AudioBitts.CommentTVCell"
+                  moduleName = "AudioBitts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denzildsa/Library/Mobile%20Documents/com~apple~CloudDocs/Family/Stores/Apps/Apple%20App%20Store/AudioBitts/AudioBitts_Appstore/AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+                  timestampString = "549290644.460217"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioBitts.CommentTVCell.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;AudioBitts.CommentTVCell&gt;"
+                  moduleName = "AudioBitts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denzildsa/Library/Mobile%20Documents/com~apple~CloudDocs/Family/Stores/Apps/Apple%20App%20Store/AudioBitts/AudioBitts_Appstore/AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+                  timestampString = "549290644.463567"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioBitts.CommentTVCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;AudioBitts.CommentTVCell&gt;"
+                  moduleName = "AudioBitts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denzildsa/Library/Mobile%20Documents/com~apple~CloudDocs/Family/Stores/Apps/Apple%20App%20Store/AudioBitts/AudioBitts_Appstore/AudioBitts/Views/UITableViewCells/CommentTVCell.swift"
+                  timestampString = "549290644.467415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Helpers/Utilities/SWShareService.swift"
+            timestampString = "549609041.003111"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "postTwitterVideo(videoData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Viewcontrollers/ExploreVC.swift"
+            timestampString = "551163608.017096"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "487"
+            endingLineNumber = "487"
+            landmarkName = "playButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Viewcontrollers/SearchVC.swift"
+            timestampString = "550823868.476554"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "playUsingAudioPlayer(_:path:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Viewcontrollers/BaseVC.swift"
+            timestampString = "550048435.9935679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Views/UITableViewCells/FeedsTVCell/FeedsTVCell.swift"
+            timestampString = "550826043.370929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioBitts/Viewcontrollers/Bitt/BittCreation/ShareVC.swift"
+            timestampString = "551102537.74378"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "shareButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

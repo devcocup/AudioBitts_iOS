@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB5o6M7bJjKtPs94ZbGOGo97bsFB0X4yP4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>510257352882</string>
+	<key>TRACKING_ID</key>
+	<string>UA-73301780-1</string>
+	<key>PROJECT_ID</key>
+	<string>audiobitts-480b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>audiobitts-480b.appspot.com</string>
+	<key>CLIENT_ID</key>
+	<string>382017531262-ddu8habif6iv11if1al2feaud8hacuj0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.382017531262-ddu8habif6iv11if1al2feaud8hacuj0</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AudioBittsInc.AudioBitts</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<false/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:382017531262:ios:e6705677ea0c6b89</string>
+	<key>DATABASE_URL</key>
+	<string>https://audiobitts-480b.firebaseio.com</string>
+</dict>
+</plist>

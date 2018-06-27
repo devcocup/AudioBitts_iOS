@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="museosans-300.ttf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="museosans-500.ttf">
+            <string>MuseoSans-500</string>
+        </array>
+        <array key="museosans-700.ttf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FollowTVCell_ID" rowHeight="70" id="JEF-7T-IcG" customClass="FollowTVCell" customModule="AudioBitts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JEF-7T-IcG" id="j9H-KK-KYW">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="CMt-Vw-Oxf">
+                        <rect key="frame" x="15" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="CRP-IW-n6K"/>
+                            <constraint firstAttribute="width" secondItem="CMt-Vw-Oxf" secondAttribute="height" multiplier="1:1" id="gK2-B7-ckN"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="drake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hth-8b-uMT">
+                        <rect key="frame" x="74" y="16" width="42" height="18"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="16"/>
+                        <color key="textColor" red="0.92941176469999998" green="0.2274509804" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Drake Graham" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaY-zK-yWe">
+                        <rect key="frame" x="74" y="38" width="86" height="14.5"/>
+                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="13"/>
+                        <color key="textColor" red="0.054901960780000002" green="0.1333333333" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NC-Ji-oYs">
+                        <rect key="frame" x="218" y="21" width="87" height="27"/>
+                        <color key="backgroundColor" red="0.054901960784313725" green="0.098039215686274508" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="87" id="PiI-n9-jYa"/>
+                            <constraint firstAttribute="height" constant="27" id="VAZ-A7-3gD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="10"/>
+                        <state key="normal" title="+ FOLLOW">
+                            <color key="titleColor" red="0.90196078431372551" green="0.12156862745098039" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="followBtnAction:" destination="JEF-7T-IcG" eventType="touchUpInside" id="MgS-9F-mSV"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="segmentDivider_Verticle" translatesAutoresizingMaskIntoConstraints="NO" id="7NF-e7-Roy">
+                        <rect key="frame" x="15" y="68" width="290" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="FrG-rV-rKR"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CMt-Vw-Oxf" firstAttribute="centerY" secondItem="j9H-KK-KYW" secondAttribute="centerY" id="0N2-tg-Gya"/>
+                    <constraint firstItem="hth-8b-uMT" firstAttribute="centerY" secondItem="CMt-Vw-Oxf" secondAttribute="centerY" constant="-10" id="1wL-JU-iAs"/>
+                    <constraint firstItem="0NC-Ji-oYs" firstAttribute="centerY" secondItem="j9H-KK-KYW" secondAttribute="centerY" id="327-So-yH0"/>
+                    <constraint firstAttribute="trailing" secondItem="0NC-Ji-oYs" secondAttribute="trailing" constant="15" id="7kz-fL-app"/>
+                    <constraint firstAttribute="bottom" secondItem="7NF-e7-Roy" secondAttribute="bottom" id="D7C-JM-AmC"/>
+                    <constraint firstItem="hth-8b-uMT" firstAttribute="leading" secondItem="CMt-Vw-Oxf" secondAttribute="trailing" constant="9" id="IN1-zb-RR9"/>
+                    <constraint firstItem="PaY-zK-yWe" firstAttribute="leading" secondItem="hth-8b-uMT" secondAttribute="leading" id="JA5-Wc-IIT"/>
+                    <constraint firstItem="CMt-Vw-Oxf" firstAttribute="leading" secondItem="j9H-KK-KYW" secondAttribute="leading" constant="15" id="cXn-Hp-Y1L"/>
+                    <constraint firstItem="7NF-e7-Roy" firstAttribute="leading" secondItem="CMt-Vw-Oxf" secondAttribute="leading" id="eSg-tO-QqF"/>
+                    <constraint firstItem="PaY-zK-yWe" firstAttribute="top" secondItem="hth-8b-uMT" secondAttribute="bottom" constant="4" id="fsc-Mz-ldn"/>
+                    <constraint firstItem="0NC-Ji-oYs" firstAttribute="trailing" secondItem="7NF-e7-Roy" secondAttribute="trailing" id="yaB-32-3OP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="followButton" destination="0NC-Ji-oYs" id="q8F-qw-kNd"/>
+                <outlet property="nameLabel" destination="PaY-zK-yWe" id="2nu-PG-F9v"/>
+                <outlet property="profileImageView" destination="CMt-Vw-Oxf" id="r9D-dU-ZXB"/>
+                <outlet property="profileImageWidthConstraint" destination="CRP-IW-n6K" id="lHB-c9-DOo"/>
+                <outlet property="saparatorLine" destination="7NF-e7-Roy" id="J1Q-p9-38s"/>
+                <outlet property="userNameLabel" destination="hth-8b-uMT" id="eIH-Hd-cGP"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="profile_placeholder" width="80" height="77"/>
+        <image name="segmentDivider_Verticle" width="3386" height="2"/>
+    </resources>
+</document>
